@@ -1,0 +1,1247 @@
+* {
+  margin: 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+}
+
+/*******************
+*      Header      *
+********************/
+/*    navigatie    */
+
+header {
+  top: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.navside {
+  position: fixed;
+  text-decoration: none;
+  top: 0;
+  margin: 1.5%;
+  border-radius: 10px;
+  background-color: white;
+  width: 50%;
+}
+
+.navside ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0%;
+}
+
+.navside ul li {
+  list-style: none;
+  padding: 1%;
+}
+
+.navside ul li a {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+/* taal navigatie*/
+.taalnav {
+  position: fixed;
+  text-decoration: none;
+  top: 0;
+  margin: 1.5%;
+  border-radius: 10px;
+  background-color: white;
+  width: 10%;
+  margin-top: 44%;
+}
+
+.taalnav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0%;
+}
+
+.taalnav ul li {
+  list-style: none;
+  padding: 1%;
+}
+
+.taalnav ul li a {
+  font-weight: 800;
+}
+
+.wittebalk a {
+  text-decoration: none;
+  padding: 0 30px 0 0;
+  font-weight: 800;
+}
+
+.donatie {
+  font-weight: 800;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: 40px;
+  margin-right: 1%;
+}
+
+a.geel:hover {
+  color: #e5b600;
+}
+
+a.paars:hover {
+  color: #854bc6;
+}
+
+a.groen:hover {
+  color: #49c288;
+}
+
+a.blauw:hover {
+  color: #00b8f1;
+}
+
+a.donatie:hover {
+  color: #e60005;
+}
+
+a.watdoen:hover {
+  color: #854bc6;
+}
+
+a.helpen:hover {
+  color: #49c288;
+}
+
+a.ons:hover {
+  color: #00b8f1;
+}
+
+a.doni:hover {
+  color: #e60005;
+}
+
+/*******************
+*      Main      *
+********************/
+main {
+  margin-top: 10%;
+}
+
+.logotop {
+  width: 7%;
+  border-radius: 10px;
+  margin-left: 3%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.logotop img {
+  width: 65%;
+  padding-left: 17%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+/*  home-page   */
+.logo-back {
+  width: 50%;
+  padding-left: 3%;
+  margin-top: -11%;
+}
+
+#home div {
+  margin-top: -38%;
+}
+#home p {
+  font-weight: 800;
+}
+.passie {
+  padding-left: 10%;
+  font-size: 4vw;
+}
+.steunpunt {
+  padding-left: 60%;
+  padding-top: 10px;
+  font-size: 4vw;
+}
+.staphome {
+  padding-top: 25px;
+  padding-left: 5%;
+  font-size: 16vw;
+}
+
+/*  wie zijn we?   */
+.titels1 {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.titels {
+  padding-left: 5%;
+  margin-top: 10%;
+  padding-top: 5%;
+}
+.wbo {
+  padding-left: 40%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+.wzw {
+  font-size: 6.5vw;
+  font-weight: 800;
+}
+
+.text {
+  padding-top: 2%;
+  padding-left: 7%;
+}
+
+.text b {
+  color: #f6df0a;
+}
+
+.wzwfoto {
+  width: 60vw;
+  height: 100%;
+}
+.fotoentext {
+  display: flex;
+  padding-top: 3%;
+}
+
+.fotoentext p {
+  padding-left: 7%;
+}
+.textfoto p {
+  width: 85%;
+  padding-top: 2%;
+}
+
+.textfoto b {
+  color: #f6df0a;
+}
+
+/*  wat doen we?   */
+.bezoek {
+  padding-left: 40%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+
+.spelo {
+  margin-top: -5%;
+  padding-left: 70%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+
+.kids {
+  margin-top: -1%;
+  padding-left: 25%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+
+.activi {
+  width: 100%;
+  display: flex;
+  padding-top: 5%;
+}
+
+.activi b {
+  color: #854bc6;
+}
+.activi2 b {
+  color: #854bc6;
+}
+.activi3 b {
+  color: #854bc6;
+}
+.activi img {
+  width: 50%;
+  height: 100%;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+.activi div p {
+  width: 90%;
+  padding-top: 3%;
+}
+
+.activi2 {
+  width: 100%;
+  display: flex;
+}
+.activi2 img {
+  width: 50%;
+  height: 100%;
+}
+
+.activi3 div p {
+  width: 90%;
+  padding-top: 3%;
+}
+
+.activi3 div img {
+  padding-top: 7%;
+  padding-left: 17%;
+  width: 20vw;
+  height: auto;
+}
+/*  Memory Card Game*/
+.memory {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*.game:hover {
+  padding: 3%;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 5%;
+  background-color: #854bc6;
+}*/
+
+.memory a {
+  font-size: 1.8vw;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 3%;
+}
+.memory a:hover {
+  color: white;
+  background-color: #854bc6;
+  border: 2px solid #854bc6;
+}
+
+/*  handje helpen   */
+
+.texthelp {
+  padding-top: 2%;
+  padding-left: 7%;
+}
+
+.texthelp b {
+  color: #49c288;
+}
+
+.form {
+  display: flex;
+  padding-top: 3%;
+}
+
+.formtext {
+  padding-left: 10%;
+  width: 90%;
+}
+.contact div {
+  padding-left: 7%;
+  width: 90%;
+}
+
+.vrijplat {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.vrijplat a {
+  font-weight: 800;
+  font-size: 1.8vw;
+  padding: 3% 7%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.vrijplat a:hover {
+  font-weight: 800;
+  font-size: 1.8vw;
+  padding: 3% 7%;
+  border: 3px solid #49c288;
+  border-radius: 10px;
+  color: white;
+  background-color: #49c288;
+}
+
+.formtext p {
+  padding-top: 3%;
+}
+
+.formtext b {
+  color: #49c288;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-top: 10px;
+}
+
+.contact button {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+.contact button:hover {
+  color: white;
+  background-color: #49c288;
+  border: 2px solid #49c288;
+  border-radius: 8px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+.contact div {
+  padding-top: 4%;
+}
+.contact input {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact h1 {
+  padding: 6% 0 0 6%;
+}
+
+/*  ons bereiken   */
+.info {
+  margin-top: -5%;
+  padding-left: 75%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+
+.bereiken {
+  display: flex;
+  margin-bottom: 10%;
+  padding-top: 5%;
+}
+.bereiken img {
+  padding-left: 15%;
+  width: 30%;
+}
+
+.context p {
+  padding-top: 3%;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+h5 {
+  font-size: 1.1vw;
+  padding-top: 3%;
+}
+
+.grootfoto {
+  width: 100%;
+  padding-top: 10%;
+}
+
+.contact2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-left: 10%;
+}
+
+.contact2 button {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 1vw;
+  margin-bottom: 10%;
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+.contact2 button:hover {
+  color: white;
+  background-color: #00b8f1;
+  border: 2px solid #00b8f1;
+  border-radius: 8px;
+  font-size: 1vw;
+  margin-bottom: 10%;
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+.contact2 input {
+  border: 2px solid black;
+  width: 90%;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact2 div {
+  margin-left: -9%;
+}
+
+.contact2 h4 {
+  padding: 6% 0 0 6%;
+}
+
+#message {
+  background-color: white;
+  color: black;
+  width: 90%;
+  border-radius: 8px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.facebook {
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 2vw;
+  margin-left: 45%;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.facebook:hover {
+  color: white;
+  background-color: #3b5998;
+  border: none;
+}
+
+/*  Doneren   */
+.doneren {
+  display: flex;
+  padding-top: 5%;
+}
+
+.tana {
+  width: 30%;
+  height: 100%;
+}
+.donate-buttons {
+  display: flex;
+}
+
+.donate-buttons input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+.donate-buttons label {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 2% 3%;
+  font-size: 2.5vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.donate-buttons input[type="radio"]:checked + label {
+  background-color: black;
+  color: white;
+}
+
+.donate a {
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.donate a:hover {
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: #e60005;
+  color: white;
+  width: 100%;
+}
+
+.input-donatie {
+  background-color: white;
+  border: 2px solid black;
+  padding: 2% 3%;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  outline: none;
+  width: 70%;
+}
+
+.radiobutton-donatie {
+  display: none;
+}
+
+/*******************
+*      footer      *
+********************/
+.foter {
+  display: flex;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+footer div p {
+  font-size: 0.9vw;
+  color: white;
+  width: 100%;
+}
+
+.adres {
+  padding: 4%;
+  width: 80%;
+}
+
+.sponsor {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 40%;
+  padding-right: 0%;
+}
+
+.sponsor img {
+  width: 35%;
+  height: auto;
+  padding-left: 5%;
+}
+
+/* Scrollbar Styling */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: "white";
+  border-radius: 10px;
+  border-style: solid;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #000000;
+}
+
+#donatie {
+  margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .textfoto {
+    padding-top: 10%;
+  }
+
+  .activi div {
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .activi2 div {
+    padding-top: 8%;
+    padding-left: 7%;
+  }
+
+  .activi2 div p {
+    width: 90%;
+    padding-top: 3%;
+  }
+
+  .activi3 {
+    width: 100%;
+    display: flex;
+  }
+  .activi3 img {
+    width: 50%;
+    height: 100%;
+  }
+  .activi3 div {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .form img {
+    width: 45%;
+    height: 100%;
+  }
+
+  .bereiken div {
+    padding-left: 15%;
+  }
+
+  .textdon {
+    padding-top: 7%;
+    padding-left: 10%;
+  }
+
+  .doneren img {
+    padding-left: 5%;
+  }
+
+  .textdon b {
+    color: #e60005;
+  }
+
+  .textdon p {
+    width: 75%;
+  }
+
+  footer div p {
+    font-size: 0.9vw;
+    color: white;
+    width: 100%;
+  }
+
+  .adres {
+    padding: 4%;
+    width: 80%;
+  }
+
+  .sponsor {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    padding-right: 0%;
+  }
+}
+
+/*******************
+*      Phone       *
+********************/
+@media only screen and (max-width: 1023px) {
+  * {
+    margin: 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 1vw;
+  }
+
+  /*******************
+  *      Header      *
+  ********************/
+  /*    navigatie    */
+
+  header {
+    top: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+  }
+
+  .navside {
+    position: fixed;
+    text-decoration: none;
+    top: 0;
+    margin: 1.5%;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin-top: 2%;
+    margin-right: 3%;
+  }
+
+  .navside ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0%;
+  }
+
+  .navside ul li {
+    list-style: none;
+    padding: 1%;
+  }
+
+  .navside ul li a {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  /* taal navigatie*/
+  .taalnav {
+    position: fixed;
+    text-decoration: none;
+    top: 0;
+    margin: 1.5%;
+    border-radius: 10px;
+    background-color: white;
+    width: 10%;
+    margin-top: 9%;
+    margin-right: 3%;
+  }
+
+  .taalnav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0%;
+  }
+
+  .taalnav ul li {
+    list-style: none;
+    padding: 1%;
+  }
+
+  .taalnav ul li a {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .wittebalk a {
+    text-decoration: none;
+    padding: 0 30px 0 0;
+    font-weight: 800;
+  }
+
+  .donatie {
+    font-weight: 800;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 40px;
+    margin-right: 1%;
+  }
+
+  a.geel:hover {
+    color: #e5b600;
+  }
+
+  a.paars:hover {
+    color: #854bc6;
+  }
+
+  a.groen:hover {
+    color: #49c288;
+  }
+
+  a.blauw:hover {
+    color: #00b8f1;
+  }
+
+  a.donatie:hover {
+    color: #e60005;
+  }
+
+  a.watdoen:hover {
+    color: #854bc6;
+  }
+
+  a.helpen:hover {
+    color: #49c288;
+  }
+
+  a.ons:hover {
+    color: #00b8f1;
+  }
+
+  a.doni:hover {
+    color: #e60005;
+  }
+  /*******************
+  *      Main      *
+  ********************/
+  main {
+    margin-top: 10%;
+  }
+
+  .logotop {
+    width: 7%;
+    border-radius: 10px;
+    margin-left: 3%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    margin-top: 2%;
+  }
+
+  .logotop img {
+    width: 65%;
+    padding-left: 17%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  /*  home-page   */
+  .logo-back {
+    width: 80%;
+    padding-left: 9%;
+    margin-top: -3%;
+    display: block;
+  }
+
+  #home div {
+    margin-top: -50%;
+  }
+  #home p {
+    font-weight: 800;
+  }
+  .passie {
+    padding-top: 1.5%;
+    padding-left: 29%;
+    font-size: 3.9rem;
+  }
+  .steunpunt {
+    padding-left: 33%;
+    padding-top: 10%;
+    font-size: 3.9rem;
+  }
+  .staphome {
+    padding-top: 6%;
+    padding-left: 20%;
+    font-size: 10rem;
+  }
+
+  /*  wie zijn we?   */
+  .titels1 {
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .titels {
+    padding-left: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
+  }
+  .wbo {
+    padding-left: 40%;
+    font-weight: 800;
+    font-size: 4rem;
+  }
+  .wzw {
+    font-size: 7.5rem;
+    font-weight: 800;
+  }
+
+  .text {
+    padding-left: 10%;
+  }
+  .text p {
+    font-size: 2rem;
+  }
+  .text b {
+    font-size: 2rem;
+  }
+
+  .wzwfoto {
+    display: none;
+  }
+
+  .textfoto p {
+    width: 80%;
+    font-size: 2rem;
+    padding-left: 10%;
+  }
+  .textfoto b {
+    font-size: 2rem;
+  }
+
+  /*  wat doen we?   */
+  .bezoek {
+    font-size: 4rem;
+  }
+
+  .spelo {
+    font-size: 4rem;
+  }
+
+  .kids {
+    font-size: 4rem;
+  }
+
+  .activi b {
+    font-size: 1.7rem;
+  }
+  .activi2 b {
+    font-size: 1.7rem;
+  }
+  .activi3 b {
+    font-size: 1.7rem;
+  }
+
+  .activi img {
+    width: 50%;
+    height: 100%;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .activi div {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .activi div p {
+    width: 95%;
+    padding-top: 3%;
+    font-size: 1.7rem;
+  }
+
+  .activi2 {
+    width: 100%;
+    display: flex;
+  }
+  .activi2 img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .activi2 div {
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+
+  .activi2 div p {
+    width: 97%;
+    padding-top: 3%;
+    font-size: 1.7rem;
+  }
+
+  .activi3 {
+    width: 100%;
+    display: flex;
+  }
+  .activi3 img {
+    width: 50%;
+    height: 100%;
+  }
+  .activi3 div {
+    padding-left: 3%;
+    padding-top: 2%;
+  }
+
+  .activi3 div p {
+    width: 97%;
+    padding-top: 3%;
+    font-size: 1.7rem;
+  }
+
+  /*  Memory Card Game*/
+  .memory a {
+    font-size: 2.5rem;
+  }
+
+  /*  handje helpen   */
+
+  .texthelp p {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+  .texthelp p br {
+    display: none;
+  }
+
+  .texthelp b {
+    font-size: 2rem;
+  }
+
+  .form img {
+    display: none;
+  }
+
+  .formtext {
+    padding-left: 7%;
+    width: 90%;
+  }
+
+  .formtext p {
+    font-size: 1.8rem;
+  }
+
+  .formtext p br:first-child {
+    display: none;
+  }
+  .formtext b {
+    font-size: 2rem;
+  }
+
+  .vrijplat {
+    padding-left: 17%;
+  }
+  .vrijplat a {
+    font-size: 3.9rem;
+  }
+
+  .contact {
+    margin-left: 17%;
+  }
+  .contact button {
+    font-size: 1.5rem;
+  }
+  .contact button:hover {
+    font-size: 1.5rem;
+  }
+
+  /*  ons bereiken   */
+
+  h4 {
+    font-size: 3.5rem;
+  }
+
+  h5 {
+    font-size: 1.1vw;
+    padding-top: 3%;
+  }
+
+  .grootfoto {
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  .contact2 {
+    width: 40%;
+  }
+
+  .contact2 button {
+    font-size: 2rem;
+  }
+  .contact2 button:hover {
+    font-size: 2rem;
+  }
+
+  .contact2 div p {
+    font-size: 2rem;
+    padding-top: 3%;
+  }
+
+  .contact2 div {
+    padding-left: 15%;
+  }
+
+  .context {
+    padding-left: 3%;
+  }
+  .context p {
+    font-size: 1.7rem;
+    width: 85%;
+  }
+
+  i {
+    font-size: 1.7rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+
+  .facebook {
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 3.5rem;
+    margin-left: 40%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .facebook:hover {
+    color: white;
+    background-color: #3b5998;
+    border: none;
+  }
+
+  /*  Doneren   */
+
+  .textdon {
+    padding-left: 10%;
+    width: 50%;
+  }
+
+  .textdon b {
+    color: #e60005;
+    font-size: 2rem;
+  }
+
+  .textdon p {
+    width: 75%;
+    font-size: 2rem;
+  }
+
+  .donate {
+    width: 100%;
+  }
+
+  /*******************
+  *      footer      *
+  ********************/
+  .foter {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .foter div p {
+    color: white;
+    width: 100%;
+  }
+  .adres {
+    padding: 4%;
+    width: 40%;
+  }
+  .adres p {
+    font-size: 2rem;
+  }
+
+  .sponsor {
+    width: 40%;
+    padding: 0%;
+  }
+
+  .sponsor p {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .sponsor img {
+    width: 30%;
+    height: auto;
+  }
+}
